@@ -1,4 +1,4 @@
-package org.easypool;
+package easypool;
 
 public interface PoolableObjectFactory<T>
 {

@@ -1,4 +1,4 @@
-package org.easypool;
+package easypool;
 
 import org.junit.Test;
 
