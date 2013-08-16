@@ -1,0 +1,28 @@
+package easypool;
+
+public class ExportingProcess
+{
+    private String location;
+
+    private long processNo = 0;
+
+    public ExportingProcess(String location, long processNo) {
+        this.location = location;
+        this.processNo = processNo;
+
+        // doing some time expensive calls / tasks
+        // ...
+
+        // for-loop is just for simulation
+        for (int i = 0; i < Integer.MAX_VALUE; i++) {
+        }
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public long getProcessNo() {
+        return processNo;
+    }
+}
