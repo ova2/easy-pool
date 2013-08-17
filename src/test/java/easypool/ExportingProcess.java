@@ -1,7 +1,7 @@
 package easypool;
 
-public class ExportingProcess
-{
+public class ExportingProcess {
+
     private String location;
 
     private long processNo = 0;
@@ -16,6 +16,8 @@ public class ExportingProcess
         // for-loop is just for simulation
         for (int i = 0; i < Integer.MAX_VALUE; i++) {
         }
+
+        System.out.println("Object with process no. " + processNo + " was created");
     }
 
     public String getLocation() {
@@ -24,5 +26,10 @@ public class ExportingProcess
 
     public long getProcessNo() {
         return processNo;
+    }
+
+    @Override
+    public String toString() {
+        return "ExportingProcess{" + "processNo=" + processNo + '}';
     }
 }
